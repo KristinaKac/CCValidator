@@ -8,10 +8,11 @@ branches:
 
 cache: 
 - node_modules  # кеширование
-- .cache
 
 install:
   - npm install  # команда установки зависимостей
+  - npm install -D puppeteer
+  - npx puppeteer Browsers Install chrome
 
 build: off  # отключаем встроенную в appveyor систему сборки
 
@@ -20,6 +21,4 @@ build_script:
 
 test_script:
   - npm run lint
-  - npm install -D puppeteer
-  - npx puppeteer Browsers Install chrome
   - npm run test
