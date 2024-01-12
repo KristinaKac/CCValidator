@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('../assets/fonts/OpenSans-Regular.ttf');
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.form {
+    margin: 30px;
+}
+
+.input, .btn {
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.input {
+    border: 1px solid rgb(196, 196, 196);
+}
+.btn {
+    background-color: rgb(50, 160, 72);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(39, 128, 57);
+}
+h2 {
+    font-weight: 400;
+}
+.valid{
+    background-color: rgba(132, 172, 132, 0.514);
+}
+.invalid{
+    background-color: rgba(181, 109, 109, 0.384);
+}
+.card-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+.bank-card-img {
+    width: 75px;
+}
+.grey {
+    filter: grayscale(100%);
+}
+
+
