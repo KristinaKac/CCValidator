@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Open Sans', sans-serif;
-    src: url('../assets/fonts/OpenSans-Regular.ttf');
+    src: url(assets/OpenSans-Regular.ttf);
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -61,5 +61,6 @@ h2 {
 .grey {
     filter: grayscale(100%);
 }
+
 
 
